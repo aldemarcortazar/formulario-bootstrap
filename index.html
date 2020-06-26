@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row" id="header">
+            <div class="container"> 
+                <h1>formulario con bootstrap</h1>
+                <p class="help-block">este es un ejemplo de formulario de pago usando bootstrap con grids anidados</p>
+            </div>
+        </div>
+
+        <div class="row">
+           
+            <div class="col-12 col-md-8 order-2 order-md-1 ">
+                <form action="" class=""> <strong>Direccion de envio</strong> 
+                    <div class="form-group">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12- col-md-6 col-lg-6 col-xl-6">
+                                    <label for="nombre" class="control-label"> nombre</label>
+                                    <input class="form-control" id="nombre" type="text">
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <label for="apellido" class="control-label">apellido</label>
+                                    <input class="form-control"  id="apellido" type="text">
+                                </div>
+                    </div>             
+                            </div>
+                            <div class="form-group">
+                                    <div class="col-md-12">
+                                        <label for="correo"> correo</label>
+                                        <input class="form-control" id="correo" type="text" placeholder="nombre@correo.com">
+                                     </div>
+                            </div> 
+                            <div class="form-group">
+                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        <label for="direccion"> direccion</label>
+                                        <input class="form-control" id="direccion" type="text" placeholder="1234 calle principal">
+                                    </div>
+                            </div> 
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                        <label for="pais">pais</label>
+                                        <select class="form-control" name="" id="pais" aria-placeholder="seleccionar pais">
+                                            <option value="">colombia</option>ccionar pais
+                                            <option value="">estados unidos</option>
+                                            <option value="">venezuela</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                        <label for="localidad">localidad</label>
+                                        <select class="form-control" name="" id="localidad" aria-placeholder="selccione la localidad">
+                                            <option value="">ibague</option>
+                                            <option value="">bogota</option>
+                                            <option value="">cali</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                        <label for="codigo postal">codigo postal</label>
+                                        <input class="form-control" id="codigo postal" type="text">
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                        <label for="numero de tarjeta"> numero de tarjeta</label>
+                                        <input class="form-control" id="numero de tarjeta" type="number">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                      <label for="nombre en la tarjeta"> nombre en la tarjeta</label>  
+                                      <input class="form-control" id="nombre en la tarjeta" type="text">
+                                      <div class="col-md-12"><p class="help-block">nombre completo como se muestra en la tarjeta</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                        <label for="expiracion">expiracion</label>
+                                        <input class="form-control" id="expiracion" type=date>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                        <label for="cvv">cvv</label>
+                                        <input class="form-control" id="cvv" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                    <div class="col-md-12">
+                                        <button class="btn btn-primary btn-block" type="submit">continuar al pago </button>
+                                    </div>
+                            </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-4 order-1 order-md-2">
+                <form action=""> <div class="form-group"><strong>tu carrito</strong></div>
+                    <div class="form-group">
+                           <div class="col-md-12">
+                             <div class="item" >
+                               <p>item1</p> 
+                               <p class="help-block">descripcion</p>
+                           </div>
+                       </div> 
+                            <div class="col-md-12">
+                                <div class="item">   
+                                    <p> item2</p>
+                                    <p class="help-block">descripcion</p>
+                            </div>
+                       </div>
+                            <div class="col-md-12">
+                                <div class="item ">
+                                    <p>item3</p>
+                                    <p class="help-block"> descripcion</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="item">
+                                    <p>codigo de descuento</p >
+                                    <p class="help-block"> dp55</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="item">
+                                    <p class="help-block"> total pesos</p>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="input-group"> 
+                                        <input class="form-control" id="cupon" type="text" placeholder="cupon">
+                                        <button class="input-group-addon btn btn-primary">canjear</button>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+
+                </form>
+        </div>
+    </div>
+   <script src="js/jquery-3.5.1.min.js"></script> 
+   <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

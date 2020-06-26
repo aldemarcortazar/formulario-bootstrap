@@ -1,0 +1,23 @@
+
+#header{
+   text-align: center;
+} 
+ p .help-block{
+   font-size: 7px ;
+}
+.item:hover{ 
+   background-color:#746767;
+   text-decoration: underline;
+   color:#ffffff;
+}
+.item{
+   border: 1px solid #000000;
+}
+.form-control{
+   border: 1px solid #000000
+}
+button{
+   background-color: rgb(182, 86, 226);
+}
+
+ 
